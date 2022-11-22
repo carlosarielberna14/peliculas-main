@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: white;
+    background-size: 100%;
+    width: 100%;
+}
+
+.title {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+label {
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+input {
+    background-color: rgba(245, 245, 245, 0.918) !important;
+}
+
+select {
+    background-color: rgba(245, 245, 245, 0.918) !important;
+}
+
+.tbl-fondo {
+    background-color: rgba(245, 245, 245, 0.918);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.tbl-fondo table {
+    border-color: black;
+}
+
+.tbl-fondo thead {
+    border-color: black;
+}
+
+.nav-link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.parrafo {
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.parrafo img {
+    width: 30%;
+}

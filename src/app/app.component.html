@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-lg bg-light">
+    <!-- <a class="navbar-brand">Catálogo de Películas</a> -->
+    <a class="navbar-brand" href="#">
+        <img src="./assets/img/icono.png" alt="LOGO" width="150" height="100" class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div id="navbar-brand" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active" routerLink="/listar-peliculas">
+                    Ver películas
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active" routerLink="/crear-pelicula">
+                    Agregar películas
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active" routerLink="/about">
+                    Acerca de los Desarrolladores
+                </a>
+            </li>
+        </ul>
+        <ul></ul>
+        <ul></ul>
+        <ul></ul>
+        <ul></ul>
+        <ul></ul>
+        <ul></ul>
+        <ul></ul>
+        <ul></ul>
+        <ul></ul>
+        <ul></ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+
+<br><br>
+
+<footer style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 3%, rgba(9,111,121,1) 22%, rgba(9,115,120,1) 24%, rgba(5,179,95,1) 54%, rgba(5,147,179,1) 84%, rgba(0,212,255,1) 100%);">
+    <div class="container ">
+        <div class="copyright " style="text-align: center;">
+            <br>
+            <strong><span style="color: white; text-align: center;">PELICULAS - EVALUACIÓN SEGUNDO</span></strong>
+            <br> <br>
+        </div>
+    </div>
+</footer>
